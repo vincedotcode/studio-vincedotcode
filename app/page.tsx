@@ -5,7 +5,7 @@ import { ProcessSection } from "@/components/process-section"
 import { ProjectsSection } from "@/components/projects-section"
 import { PackagesSection } from "@/components/packages-section"
 import { ShowcaseSection } from "@/components/showcase-section"
-import { TestimonialsSection } from "@/components/testimonials-section"
+// import { TestimonialsSection } from "@/components/testimonials-section"
 import { BlogPreviewSection } from "@/components/blog-preview-section"
 import { FAQSection } from "@/components/faq-section"
 import { ContactSection } from "@/components/contact-section"
@@ -29,7 +29,8 @@ export default function Home() {
           <PackagesSection />
         </div>
         <ShowcaseSection />
-        <TestimonialsSection />
+
+        {/*   <!--Testimonials Section-->     */}
         <BlogPreviewSection />
         <FAQSection />
         <div id="contact">
